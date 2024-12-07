@@ -4,15 +4,14 @@
   box-sizing: border-box;
 }
 
-/* Body */
+/* Body styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  text-align: center;
 }
 
 /* Background video container */
@@ -25,7 +24,6 @@ body {
   z-index: -1;
   /* Place behind content */
   overflow: hidden;
-  background-size: contain;
   filter: brightness(100%)
 }
 
@@ -98,8 +96,8 @@ header {
 .search-bar button {
   padding: 8px 12px;
   font-size: 16px;
-  background-color: #51762a;
- 
+  background-color: #6a9d34;
+  /* Calming green color */
   color: white;
   border: none;
   border-radius: 0 5px 5px 0;
@@ -116,7 +114,7 @@ header {
   text-align: center;
   color: white;
   z-index: 1;
-  margin-top: 8%;
+  margin-top: 15%;
   padding: 20px;
 }
 
@@ -140,7 +138,7 @@ footer {
   text-align: center;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.6);
-  border: 2px solid rgb(181, 211, 181);
+  /* Semi-transparent footer */
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -162,55 +160,16 @@ pre {
 }
 
 .fff img {
-  width: 100%;
+  width: 10%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid white;
   transition: all ease-in-out 0.6s;
-  margin-top: 100px;
+  filter: drop-shadow(15px 15px 15px rgb(255, 8, 222));
+
 }
 
 .fff img:hover {
   width: 25%;
-}
-pre{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  height: 30px;
-}
-h1{
-  font-family: 'Times New Roman', Times, serif;
-}
-.boxes{
-  color: #ffffff;
-  display: grid;
-  grid-template-columns: 1FR 1FR 1FR;
-  justify-content:center;
-  align-items: center;
-  width:80%;
-
-  height:20px;
-  margin-left: auto;
-  margin-right:auto;
-  
-}
-/* boxes */
-.box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid white;
-  height:100px;
-  width: 80%;
-  border-radius: 10px;
-  margin-top: 100px;
-}
-.links:hover{
-  text-decoration: underline;
-  font-weight: bold;
-}
-.links{
-  color: rgb(244, 237, 241);
-  font-size: 30px;
-  
 }
