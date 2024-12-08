@@ -87,5 +87,17 @@ body {
   background-repeat: no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #FFFFFF;
-  height: 130vh;
+  height: 230vh;
+}
+
+.Dhyan {
+  padding: 10px;
+  transition: all ease-in-out 0.5s;
+
+
+}
+
+.Dhyan :hover {
+  transform: scale(1.3);
+
 }
