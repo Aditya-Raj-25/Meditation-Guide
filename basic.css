@@ -111,4 +111,14 @@ header {
   COLOR:white;
   text-align: center;
   padding: 10PX;
+  height: 200px;
+  width: 450px;
 }
+
+
+#basic-box1:hover{
+  height:300;
+  width:500;
+
+}
+
