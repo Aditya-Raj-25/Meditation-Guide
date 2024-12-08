@@ -70,3 +70,17 @@ header {
   .search-bar button:hover {
     background-color: #55802A;
   }
+  .drishya{
+    margin-top: 200px;
+    broder:3px solid white;
+
+  }
+  body {
+    background-image: url('/pics/photo1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    height: 130vh;
+  }
