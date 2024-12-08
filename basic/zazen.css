@@ -78,14 +78,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #FFFFFF;
-  height: 130vh;
+  color:rgb(34, 246, 168);
+  height: 210vh;
+  font-size: large;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-top: 50px;
 }
 
 .zaz {
-  padding: 20px;
+  padding: 10px;
   transition: all ease-in-out 0.5s;
-  text-shadow: 2px 2px rgb(247, 246, 249);
+  text-shadow: 2px 2px rgb(140, 111, 199);
 }
 
 .zaz:hover {
