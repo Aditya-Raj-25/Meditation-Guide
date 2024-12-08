@@ -46,7 +46,7 @@ body {
 .form-group input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #f00505;
     border-radius: 5px;
     font-size: 16px;
 }
