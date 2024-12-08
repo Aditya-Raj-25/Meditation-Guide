@@ -81,3 +81,14 @@ body {
   color: #FFFFFF;
   height: 130vh;
 }
+
+.pran {
+  padding: 20px;
+  transition: all ease-in-out 0.5s;
+  text-shadow: 2px 2px rgb(247, 6, 195);
+
+}
+
+.dpran:hover {
+  transform: scale(1.3);
+}
