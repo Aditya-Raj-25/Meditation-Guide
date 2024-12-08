@@ -1,82 +1,93 @@
 header {
-    background-color: rgba(0, 0, 0, 0.6);
-    /* Semi-transparent for a soft overlay */
-    padding: 15px 20px;
-    position: fixed;
-    top: 0;
-    left:0;
-    width: 100%;
-    z-index: 1;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  }
-  
-  .logo img {
-    height: 50px;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    font-size: 18px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 10px 15px;
-    transition: all 0.3s;
-    border-radius: 5px;
-  }
-  
-  .nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-  
-  /* Search bar */
-  .search-bar {
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
-  }
-  
-  .search-bar input {
-    padding: 8px 12px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-  }
-  
-  .search-bar button {
-    padding: 8px 12px;
-    font-size: 16px;
-    background-color: #51762A;
-    color: white;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-  }
-  
-  .search-bar button:hover {
-    background-color: #55802A;
-  }
+  background-color: rgba(0, 0, 0, 0.6);
+  /* Semi-transparent for a soft overlay */
+  padding: 15px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
 
-  body {
-    background-image: url('/pics/photo1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #FFFFFF;
-    height: 130vh;
-  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 18px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  font-size: 16px;
+  background-color: #51762A;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #55802A;
+}
+
+body {
+  text-align: center;
+  background-image: url('/pics/photo 45.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF;
+  height: 130vh;
+}
+
+.dfg {
+  padding: 20px;
+  transition: all ease-in-out 0.5s;
+  text-shadow: 2px 2px rgb(87, 6, 250);
+}
+
+.dfg:hover {
+  transform: scale(1.3);
+}
