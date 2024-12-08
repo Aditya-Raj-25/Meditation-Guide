@@ -80,7 +80,8 @@ header {
 }
 
 body {
-  background-image: url('/pics/basic 1 .jpeg');
+  text-align: center;
+  background-image: url('/pics/photo 11.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
