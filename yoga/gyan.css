@@ -3,6 +3,7 @@ header {
   /* Semi-transparent for a soft overlay */
   padding: 15px 20px;
   position: fixed;
+  color:white;
   top: 0;
   width: 100%;
   z-index: 1;

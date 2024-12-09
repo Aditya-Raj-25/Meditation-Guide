@@ -2,6 +2,7 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   /* Semi-transparent for a soft overlay */
   padding: 15px 20px;
+  color:#FFFFFF
   position: fixed;
   top: 0;
   width: 100%;
