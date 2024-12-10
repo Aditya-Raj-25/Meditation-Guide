@@ -79,17 +79,32 @@ body {
   background-repeat: no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #FFFFFF;
-  height: 130vh;
+  font-size: larger;
   margin-top: 100px;
 }
 
 .pran {
   padding: 20px;
   transition: all ease-in-out 0.5s;
-  text-shadow: 2px 2px rgb(247, 6, 195);
+  text-shadow: 1px 1px rgb(197, 153, 188);
+  border: 5px solid white;
+  
 
 }
 
 .dpran:hover {
   transform: scale(1.3);
+}
+li{
+  list-style: none;
+}
+.dpran{
+  border: 2px solid;
+  width:70%;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+#l{
+  color:rgb(154, 67, 13);
+  text-transform: white;
 }

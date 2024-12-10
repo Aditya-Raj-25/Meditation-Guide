@@ -73,7 +73,7 @@ header {
 
 .drishya {
   justify-content: center;
-  color: #FFFFFF;
+  color: #bcc673;
   margin-top: 200px;
   broder: 3px solid white;
 
@@ -85,14 +85,20 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #FFFFFF;
-  height: 230vh;
+  margin-top: -50px;
+  font-size: larger;
+
 }
 
 .Dhyan {
   padding: 10px;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 1.5s;
+  border: 5px solid yellow;
+  margin: 10px;
+  border-radius: 10px;
+
 
 
 }
@@ -100,4 +106,10 @@ body {
 .Dhyan :hover {
   transform: scale(1.3);
 
+}
+li{
+  list-style: none;
+}
+#l{
+  color:rgb(154, 67, 13);
 }
