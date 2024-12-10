@@ -6,7 +6,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
-  margin-left: -10px;
+  margin-left: -150px;
   color:#FFFFFF
 }
 
@@ -78,18 +78,34 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #FFFFFF;
-  height: 130vh;
-  margin-top: 100px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #342d2d;
+  font-size: 30px;
+  margin-top: 120px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .kund {
   padding: 20px;
   transition: all ease-in-out 0.5s;
-  text-shadow: 2px 2px rgb(246, 238, 245);
+  text-shadow: 0.8px 0.7px rgb(246, 238, 245);
+  border:8px solid wheat;
+  margin: 20px;
 }
 
 .kund:hover {
   transform: scale(1.1);
+}
+li{
+    list-style: none;
+}
+#lo{
+    text-shadow: 1px 1px rgb(246, 238, 245);
+}
+h1 h2{
+    color:rgb(211, 122, 14);
 }
