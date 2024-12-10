@@ -5,27 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://image.shutterstock.com/image-vector/yoga-lotus-position-silhouette-vector-260nw-673194454.jpg"
+                    alt="Website Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="books.html">BOOKS</a></li>
+
+                    <li><a href="/basic/login.html">Login</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>Search</button>
+            </div>
+        </div>
+    </header>
+    <!-- Background Video -->
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="123.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- About Section Content -->
     <section id="about">
-        <h1>About Us</h1>
+        <h1>Meet Our Team</h1>
+        <p class="subtitle">The brilliant minds behind our success</p>
         <div class="profiles">
             <div class="profile">
-                <img src="/pics/WhatsApp Image 2024-08-28 at 17.47.00.jpeg" alt="Profile 1">
-                <h2>John Doe</h2>
-                <p>Web Developer</p>
+                <img src="/pics/WhatsApp Image 2024-12-10 at 18.39.21.jpeg" alt="Profile 1">
+                <h2>Aditya Raj Srivastava</h2>
+                <p>💻 Web Developer</p>
+                <p class="bio">Passionate about creating dynamic websites and applications using the latest
+                    technologies.</p>
+                <p> <a href="https://www.linkedin.com/in/aditya-raj-srivastava-a4b911336/" style="color: white;"><i
+                            class="fa-brands fa-linkedin-in"></a></i></p>
             </div>
             <div class="profile">
-                <img src="/pics/WhatsApp Image 2024-08-28 at 23.31.48.jpeg" alt="Profile 2">
-                <h2>Jane Smith</h2>
-                <p>UI/UX Designer</p>
+                <img src="/pics/WhatsApp Image 2024-12-10 at 18.40.27.jpeg" alt="Profile 2">
+                <h2>Sunny Singh</h2>
+                <p>🎨 UI/UX Designer</p>
+                <p class="bio">Designs intuitive interfaces and seamless user experiences for all devices.</p>
+                <p> <a href="https://www.linkedin.com/in/aditya-raj-srivastava-a4b911336/" style="color: white;"><i
+                            class="fa-brands fa-linkedin-in"></a></i></p>
             </div>
             <div class="profile">
-                <img src="/pics/dark_rider-character.webp" alt="Profile 3">
-                <h2>Mike Johnson</h2>
-                <p>Project Manager</p>
+                <img src="/pics/WhatsApp Image 2024-12-10 at 19.01.31.jpeg" alt="Profile 3">
+                <h2>Siddu Hamigi</h2>
+                <p>📋 Project Manager</p>
+                <p class="bio">Ensures every project is delivered on time with exceptional quality and teamwork.</p>
+                <p> <a href="https://www.linkedin.com/in/aditya-raj-srivastava-a4b911336/" style="color: white;"><i
+                            class="fa-brands fa-linkedin-in"></a></i></p>
+
+
             </div>
         </div>
     </section>

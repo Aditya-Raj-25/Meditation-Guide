@@ -1,62 +1,175 @@
 /* General Reset */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f4;
+    color: #ffffff;
+}
+
+/* Video Background */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* About Section */
 #about {
     text-align: center;
-    padding: 50px 20px;
-    background-color: #ffffff;
+    padding: 100px 20px;
+    /* Added padding to prevent overlap with video */
+    z-index: 1;
+    /* Ensure content is above the video */
+    color: white;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 #about h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    color: #333;
+    font-size: 3em;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-bottom: 40px;
 }
 
 /* Profile Container */
 .profiles {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .profile {
-    background: #f9f9f9;
+    background: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent black background */
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 25px;
+    width: 280px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     text-align: center;
-    transition: transform 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
 
 .profile img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #ffffff;
 }
 
 .profile h2 {
-    font-size: 1.5em;
-    color: #333;
-    margin: 10px 0;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .profile p {
     font-size: 1em;
-    color: #777;
+    margin-bottom: 10px;
+}
+
+.profile .bio {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent for a soft overlay */
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #51762a;
+
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #55802a;
+}
+
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
