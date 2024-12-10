@@ -79,11 +79,12 @@ body {
   background-repeat: no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #FFFFFF;
-  height: 180vh;
+ 
   border: 5px solid;
   margin-top: 90px;
   font-size: larger;
   text-shadow: 2px 2px rgb(204, 129, 185);
+  line-height: 35px;
 }
 
 .xyz {
@@ -114,4 +115,7 @@ li{
 #l{
   color:rgb(154, 67, 13);
   text-shadow: 2px 2px rgb(204, 129, 185);
+}
+pre{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }

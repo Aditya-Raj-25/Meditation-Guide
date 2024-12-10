@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-/* Body */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-/* Background video container */
+
 .video-background {
   position: fixed;
   top: 0;
@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: -1;
-  /* Place behind content */
+ 
   overflow: hidden;
   background-size: contain;
   filter: brightness(100%)
@@ -34,13 +34,13 @@ body {
   height: 100%;
   object-fit: cover;
   filter: brightness(70%) blur(2px);
-  /* Adds a calming effect */
+
 }
 
-/* Navbar styles */
+
 header {
   background-color: rgba(0, 0, 0, 0.6);
-  /* Semi-transparent for a soft overlay */
+ 
   padding: 15px 20px;
   position: fixed;
   top: 0;
@@ -110,7 +110,6 @@ header {
   background-color: #55802a;
 }
 
-/* Content */
 .content {
   position: relative;
   text-align: center;
@@ -135,18 +134,7 @@ header {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.6);
-  border: 2px solid rgb(181, 211, 181);
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  color: #ffffff;
-  font-size: 0.9rem;
-}
+
 
 pre {
   line-height: 30px;
@@ -198,7 +186,7 @@ h1 {
 
 }
 
-/* boxes */
+
 .box {
   display: flex;
   justify-content: center;
