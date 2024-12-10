@@ -6,8 +6,9 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
-  margin-left: -10px;
+  margin-left: -110px;
   color: #FFFFFF;
+
 }
 
 .navbar {
@@ -79,17 +80,44 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #FFFFFF;
-  height: 130vh;
+  color: #c1baba;
+  font-size: large;
   margin-top: 100px;
+  margin-left: 100px;
+ 
+ 
 }
 
 .kram {
   padding: 20px;
   transition: all ease-in-out 0.5s;
-  text-shadow: 2px 2px rgb(246, 238, 245);
+  text-shadow: 1px 1px rgb(224, 216, 216);
+  border:10px solid white;
+  width:90%;
+  display: block;
+  border-radius: 20px;
+  margin:10px;
+  font-size: 20px;
+
 }
 
 .kram:hover {
   transform: scale(1.1);
+}
+li{
+    list-style: none;
+}
+h1{
+    color:rgb(211, 122, 14);
+}
+h2{
+    color:rgb(211, 122, 14);
+}
+#vel{
+    color:bisque;
+    font-size: 20px;
+}
+#velo{
+    color:rgb(254, 254, 254);
+    font-size: 20px;
 }
