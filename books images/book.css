@@ -1,0 +1,145 @@
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Semi-transparent for a soft overlay */
+    padding: 15px 20px;
+    color:#FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin-left: -10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    transition: all 0.3s;
+    border-radius: 5px;
+  }
+  
+  .nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Search bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .search-bar input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #51762A;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #55802A;
+  }
+  body{
+    margin-top: 160px;
+    background-color: bisque;
+  }
+  .l{
+    height:300px;
+    width: 300px;
+    border:5px solid black;
+    border-radius: 50px;
+  }
+  .lp{
+    display: grid;
+    grid-template-columns: repeat(3,20%);
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  #l1{
+    background-image: url('img1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l2{
+    background-image: url('img2.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l3{
+    background-image: url('img3.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l4{
+    background-image: url('img4.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l5{
+    background-image: url('img5.png');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l6{
+    background-image: url('img6.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l7{
+    background-image: url('img7.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l8{
+    background-image: url('img8.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+  #l9{
+    background-image: url('img9.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
