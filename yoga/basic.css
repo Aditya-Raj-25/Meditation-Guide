@@ -2,7 +2,7 @@ header {
   background-color: rgba(0, 0, 0, 0.6);
   /* Semi-transparent for a soft overlay */
   padding: 15px 20px;
-  color:#FFFFFF;
+  color: #FFFFFF;
   position: fixed;
   top: 0;
   width: 100%;
@@ -88,22 +88,25 @@ body {
   padding: 20px;
   transition: all ease-in-out 0.5s;
   text-shadow: 1px 1px rgb(246, 238, 245);
-  border:8px solid rgb(194, 144, 144);
+  border: 8px solid rgb(194, 144, 144);
   width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
- 
+
+
 }
 
 .basi:hover {
   transform: scale(1.1);
-}
-li{
-    list-style: none;
-}
-#up{
-    color:rgb(211, 122, 14);
+  width: 100%;
 }
 
+li {
+  list-style: none;
+}
+
+#up {
+  color: rgb(211, 122, 14);
+}
