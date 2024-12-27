@@ -136,8 +136,8 @@ a {
 
 
 .container img {
-  width: 80%;
-  height: 100%;
+  width: 50%;
+  height: 75%;
   object-fit: cover;
   border-radius: 10px;
   border: solid white;
@@ -150,7 +150,7 @@ a {
 img {
   background-size: cover;
   background-position: center;
-  width: 90%;
+  width: 50%;
   border: 5px solid white;
   border-radius: 10px;
 }
