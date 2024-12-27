@@ -76,8 +76,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
-  color:#FFFFFF
+  height: 80vh;
+  color: #FFFFFF
 }
 
 .basic {
@@ -124,19 +124,37 @@ a {
   font-weight: 700;
   text-align: center;
 }
-.container{
-    margin-top: 150px;
-    display:flex;
-    text-align: center;
-   
+
+.container {
+  margin: 100px 0 0 200px;
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
-img{
-    background-size: cover;
-    background-position: center;
-    width: 90%;
-    border: 5px solid white;
-    border-radius: 10px;
+
+
+.container img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: solid white;
+  transition: all ease-in-out 0.5s;
+  box-shadow: 0 0 20px blue;
+
 }
-#e1{
-    width:58%;
+
+
+img {
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+#e1 {
+  width: 58%;
 }
